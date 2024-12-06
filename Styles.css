@@ -1,0 +1,44 @@
+   body {
+    background-color: #ede9e1;
+   }
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    border: 10px;
+}
+h2 {
+font-family: 'Times New Roman', Times, serif;    text-align: center;
+    margin: 10px;
+    border: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.gallery {
+    justify-content: center;
+    margin: 10px;
+    border: 5px solid #a38a60;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+}
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-align: center;
+  }
